@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hu-deeplearning"
+version = "0.1.0"
+description = ""
+authors = ["Raoul Grouls <r.grouls@anchormen.nl>"]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+numpy = "^1.21.3"
+plotly = "^5.3.1"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+scikit-learn = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+flake8-annotations = "^2.7.0"
+loguru = "^0.5.3"
+ipykernel = "^6.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
