@@ -33,10 +33,15 @@ data: requirements
 clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
+	rm -rf data/raw/flower_photos/
+	rm -r models/*
 
 ## Lint using flake8
 lint:
+	isort src
+	black src
 	flake8 src
+	mypy --config-file tox.ini src
 
 ## Upload Data to S3
 sync_data_to_s3:
