@@ -5,7 +5,7 @@ description = ""
 authors = ["Raoul Grouls <r.grouls@anchormen.nl>"]
 
 [tool.poetry.dependencies]
-python = "~3.7
+python = "~3.7"
 numpy = "^1.21.3"
 plotly = "^5.3.1"
 matplotlib = "^3.4.3"
