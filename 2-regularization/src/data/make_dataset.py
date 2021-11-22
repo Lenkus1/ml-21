@@ -60,7 +60,7 @@ def get_cancer_data(
     split: float, seed: int = 123, validation: bool = False
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.array]:
     # we load the data
-    df = pd.read_csv("../src/data/cancer_data.csv", index_col="id")
+    df = pd.read_csv("../data/interim/cancer_data.csv", index_col="id")
     X = df.drop("diagnosis", axis=1)
     y = df["diagnosis"]
 

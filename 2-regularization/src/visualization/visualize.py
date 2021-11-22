@@ -58,7 +58,6 @@ def precision_recall_curve(
 
 def roc_curve(fpr: np.ndarray, tpr: np.ndarray) -> None:
     data = pd.DataFrame({"fpr": fpr, "tpr": tpr})
-    sns.set_theme()
     plot = sns.lineplot(x="fpr", y="tpr", data=data)
     plot.set(xlabel="FPR", ylabel="TPR")
     plt.plot([0, 1], [0, 1], "k--")
