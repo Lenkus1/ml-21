@@ -1,0 +1,40 @@
+2021-08-17 19:00:04.646 | INFO     | src.data.make_dataset:get_raw_data:21 - found flowers in /Users/rgrouls/Documents/academy/HU/ml-21/vision/notebooks/../data/raw/flower_photos, not downloading again
+2021-08-17 19:09:20.637 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:09:20.637 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:09:20.637 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:09:20.637 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:09:20.637 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:20:58.221 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:20:58.221 | INFO     | src.data.make_dataset:get_raw_data:19 - found flowers in ../data/raw/flower_photos, not downloading again
+2021-08-17 19:24:50.371 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 19:24:50.371 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 19:24:50.371 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 19:24:50.371 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 19:24:50.371 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 19:24:50.413 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 19:24:50.413 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 19:24:50.413 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 19:24:50.413 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 19:24:50.413 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.141 | INFO     | src.visualization.visualize:plot_batch:55 - image shape: (32, 180, 180, 3)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 19:39:03.142 | INFO     | src.visualization.visualize:plot_batch:56 - label shape: (32, 5)
+2021-08-17 20:03:47.744 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 20:03:47.806 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 20:06:09.807 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 20:06:09.849 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 20:07:05.810 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 20:07:05.853 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 20:24:36.438 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 20:24:36.507 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator
+2021-08-17 20:32:37.082 | INFO     | src.data.make_dataset:create_generators:39 - Creating validation set data generator
+2021-08-17 20:32:37.152 | INFO     | src.data.make_dataset:create_generators:49 - Creating train set data generator

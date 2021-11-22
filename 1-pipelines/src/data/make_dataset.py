@@ -34,8 +34,9 @@ def main(
     )
     if validation:
         X_valid, X_test, y_valid, y_test = train_test_split(
-            X_test, y_test, test_size=split / 2, random_state=seed
+            X_test, y_test, test_size=0.5, random_state=seed
         )
         return (X_train, y_train, X_valid, y_valid, X_test, y_test)
     else:
         return (X_train, y_train, X_test, y_test)
+
