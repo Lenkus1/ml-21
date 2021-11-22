@@ -48,9 +48,13 @@ def cfm_heatmap(
 def precision_recall_curve(
     precision: np.ndarray, recall: np.ndarray, threshold: np.ndarray
 ) -> None:
+    n = len(threshold)
+    if (n != len(threshold)) or (n != len(recall)):
+        precision = precision[:n]
+        recall = recall[:n]
 
     data = pd.DataFrame(
-        {"precision": precision[:-1], "recall": recall[:-1], "threshold": threshold}
+        {"precision": precision, "recall": recall, "threshold": threshold}
     )
     sns.lineplot(x="threshold", y="precision", label="precision", data=data)
     sns.lineplot(x="threshold", y="recall", label="recall", data=data)
