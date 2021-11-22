@@ -23,6 +23,8 @@ isort = "^5.10.1"
 mypy = "^0.910"
 pep8-naming = "^0.12.1"
 hypothesis = "^6.24.6"
+pytest = "^6.2.5"
+ray = {extras = ["tune"], version = "^1.8.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
